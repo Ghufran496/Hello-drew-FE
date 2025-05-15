@@ -1,0 +1,1 @@
+ALTER TABLE "agents" ADD COLUMN "type" varchar(255);--> statement-breakpoint

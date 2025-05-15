@@ -1,0 +1,1 @@
+ALTER TABLE "team_activity" ALTER COLUMN "details" SET DATA TYPE varchar(255);

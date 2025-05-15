@@ -1,0 +1,2 @@
+ALTER TABLE "user_docusign_credentials" ALTER COLUMN "user_id" SET NOT NULL;--> statement-breakpoint
+ALTER TABLE "user_docusign_credentials" ADD CONSTRAINT "user_docusign_credentials_user_id_unique" UNIQUE("user_id");
